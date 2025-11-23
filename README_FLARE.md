@@ -64,6 +64,8 @@ Brands **never** interact with these strategies directly. They only see a higher
 ---
 
 ## 4. Smart Contract Suite
+**Purpose**  
+SponsorDelegationVault is a multi-sponsor vault on Flare where companies can register, deposit FLR, have it automatically wrapped into WNat, and delegated 100% to a chosen FTSO data provider, while the contract tracks each company’s deposited and delegated balances. It lets sponsors partially or fully withdraw (unwrapping back to FLR), re-delegates remaining balances, and exposes helper view functions for dashboards, including per-company info, global system stats, and the total value of delegated FLR in USD using the FLR/USD price feed from Flare’s FTSO system.
 
 Below is the contract suite dedicated to Flare.
 
